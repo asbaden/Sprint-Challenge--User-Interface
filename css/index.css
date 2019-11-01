@@ -91,16 +91,27 @@ p {
     width:45%;
     display:flex;
     justify-content:space-between;
+    padding: 20px 2%;
     
     
  
  
 }
 
+header nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
 nav a{
     color: black;
     text-decoration:none;
     font-size:15px;
+    
   }
 
 
@@ -118,6 +129,11 @@ nav a{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+#about-txt.text-container{
+    justify-content: left;
+}
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -193,6 +209,65 @@ nav a{
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+
+/* about page css*/
+.aboutboxes{
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.aboutboxes div{
+    display:flex;
+    flex-flow: column;
+    padding:5px;
+}
+
+.box1{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:50%;
+    border-bottom: 1px dotted black;
+}
+.box2{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:50%;
+    border-bottom: 1px dotted black;
+}
+.box3{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:50%;
+    border-bottom: 1px dotted black;
+}
+.box4{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:50%;
+    border-bottom: 1px dotted black;
+}
+
+
+
+
+
+
+
+button { 
+	border: 2px solid black;
+	text-align:center;
+	font-size:18px;
+	width:150px;
+	height:40px;
+	border-radius: 8px;
+
 }
 
 footer {
