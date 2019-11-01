@@ -75,12 +75,26 @@ p {
 
 
 
+
+.logo{
+    width:20%;
+    
+}
+
+.logo img{
+    max-width:100%;
+    padding:25px;
+    margin-left:185px;
+}
+
 .links{
-    width:40%;
+    width:45%;
     display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-   
+    justify-content:space-between;
+    
+    
+ 
+ 
 }
 
 nav a{
@@ -131,6 +145,41 @@ nav a{
     align-items: center;
     justify-content: center;
 }
+
+
+#box1.box{
+    background-color:teal !important;
+}
+#box2.box{
+    background-color:gold !important;
+}
+#box3.box{
+    background-color:cadetblue !important;
+}
+#box4.box{
+    background-color:coral !important;
+}
+#box5.box{
+    background-color:crimson!important;
+}
+#box6.box{
+    background-color:forestgreen !important;
+}
+#box7.box{
+    background-color:darkorchid!important;
+}
+#box8.box{
+    background-color:hotpink!important;
+}
+#box9.box{
+    background-color:indigo!important;
+}
+#box10.box{
+    background-color:dodgerblue!important;
+}
+
+
+
 
 .bottom-content {
     display: flex;
