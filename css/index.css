@@ -77,21 +77,22 @@ p {
 
 
 .logo{
-    width:20%;
+    width:80%;
     
 }
 
 .logo img{
     max-width:100%;
     padding:25px;
-    margin-left:185px;
+    margin-left:100px;
 }
 
 .links{
-    width:45%;
+    width:100%;
     display:flex;
     justify-content:space-between;
-    padding: 20px 2%;
+    padding: 40px 1%;
+    margin-top:20px;
     
     
  
@@ -131,7 +132,10 @@ nav a{
 }
 
 #about-txt.text-container{
-    justify-content: left;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 290px;
 }
 
 
@@ -152,7 +156,7 @@ nav a{
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 12.58%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -269,6 +273,16 @@ button {
 	border-radius: 8px;
 
 }
+
+.bottom-content-about{
+    display:flex;
+    flex-direction: column;
+    padding:30px;
+
+}
+
+
+
 
 footer {
     width: 100%;
