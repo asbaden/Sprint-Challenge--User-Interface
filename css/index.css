@@ -71,6 +71,52 @@ p {
     margin: 0 auto;
 }
 
+/*nav css*/
+
+
+
+
+.logo{
+    width:80%;
+    
+}
+
+.logo img{
+    max-width:100%;
+    padding:25px;
+    margin-left:100px;
+}
+
+.links{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    padding: 40px 1%;
+    margin-top:20px;
+    
+    
+ 
+ 
+}
+
+header nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+nav a{
+    color: black;
+    text-decoration:none;
+    font-size:15px;
+    
+  }
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -80,10 +126,19 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 100%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-left: 140px;  
 }
+
+#about-txt.text-container{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 290px;
+}
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -102,7 +157,7 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 12.58%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -111,6 +166,41 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+
+#box1.box{
+    background-color:teal !important;
+}
+#box2.box{
+    background-color:gold !important;
+}
+#box3.box{
+    background-color:cadetblue !important;
+}
+#box4.box{
+    background-color:coral !important;
+}
+#box5.box{
+    background-color:crimson!important;
+}
+#box6.box{
+    background-color:forestgreen !important;
+}
+#box7.box{
+    background-color:darkorchid!important;
+}
+#box8.box{
+    background-color:hotpink!important;
+}
+#box9.box{
+    background-color:indigo!important;
+}
+#box10.box{
+    background-color:dodgerblue!important;
+}
+
+
+
 
 .bottom-content {
     display: flex;
@@ -125,6 +215,75 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* about page css*/
+.aboutboxes{
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.aboutboxes div{
+    display:flex;
+    flex-flow: column;
+    padding:5px;
+}
+
+.box1{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:50%;
+    border-bottom: 1px dotted black;
+}
+.box2{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:50%;
+    border-bottom: 1px dotted black;
+}
+.box3{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:50%;
+    border-bottom: 1px dotted black;
+}
+.box4{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:50%;
+    border-bottom: 1px dotted black;
+}
+
+
+
+
+
+
+
+button { 
+	border: 2px solid black;
+	text-align:center;
+	font-size:18px;
+	width:150px;
+	height:40px;
+	border-radius: 8px;
+
+}
+
+.bottom-content-about{
+    display:flex;
+    flex-direction: column;
+    padding:30px;
+
+}
+
+
+
 
 footer {
     width: 100%;
