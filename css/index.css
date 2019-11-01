@@ -126,9 +126,10 @@ nav a{
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 100%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-left: 140px;  
 }
 
 #about-txt.text-container{
